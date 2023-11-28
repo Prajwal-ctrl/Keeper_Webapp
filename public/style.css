@@ -100,3 +100,18 @@ form.create-note button {
   cursor: pointer;
   outline: none;
 }
+
+@media only screen and (min-width: 600px) {
+  /* Apply styles for screens with a minimum width of 600px */
+  header {
+    padding: 16px 32px;
+  }
+
+  .note {
+    width: 240px;
+  }
+
+  form.create-note {
+    width: 480px;
+  }
+}
